@@ -17,7 +17,7 @@ export default function App() {
                 <img src={logo} className="app-logo" alt="logo" />
                 <span className="mx-2">my travel journal.</span>
             </header>
-            <main className="row justify-content-center mt-4">
+            <main className="row justify-content-center mt-4 px-4">
                 <section className="col-lg-4 col-md-8 col-12">
                     {cities}
                 </section>
