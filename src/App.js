@@ -19,9 +19,7 @@ export default function App() {
             </header>
             <main className="row justify-content-center mt-4">
                 <section className="col-lg-4 col-md-8 col-12">
-                    <div className="container">
-                        {cities}
-                    </div>
+                    {cities}
                 </section>
             </main>
         </div>

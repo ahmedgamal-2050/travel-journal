@@ -3,7 +3,7 @@ import LocationIcon from './images/location.svg';
 export default function City(props) {
     return (
         <div className="city-card my-4">
-            <div className="row justify-content-center align-items-center">
+            <div className="row justify-content-center align-items-center pb-2">
                 <div className="col-auto">
                     <img src={"./images/" + props.imageUrl} className="city-bg" alt="city background" />
                 </div>
@@ -15,7 +15,7 @@ export default function City(props) {
                     </div>
                     <h3 className="fw-bold mb-3">{props.title}</h3>
                     <p className="start-end-date mb-2">{props.startDate} - {props.endDate}</p>
-                    <p className="city-description">
+                    <p className="city-description mb-0">
                         {props.description}
                     </p>
                 </div>
