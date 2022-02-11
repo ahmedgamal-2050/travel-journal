@@ -1,13 +1,67 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #F55A5A;
+  height: 55px;
+  text-align: center;
+  color: #fff;
+}
+
+.app-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+main {
+  background-color: #FFFFFF;
+}
+
+.city-bg {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.location-icon {
+  width: 7px;
+  height: 9.55px;
+}
+
+.city-name {
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.city-location {
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.start-end-date {
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+}
+
+.city-description {
+  font-size: 10.24px;
+  line-height: 15px;
+  color: #2B283A;
 }
